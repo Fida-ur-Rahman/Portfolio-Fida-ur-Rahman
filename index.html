@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Portfolio</title>
+  <!--
+    Pure HTML portfolio.
+    Edit text between tags to customize.
+    Replace image URLs or remove <img> if you don't want images.
+  -->
+</head>
+<body>
+
+  <!-- Header / Name -->
+  <header>
+    <h1>Fida ur Rehman</h1>
+    <p>Front-end Developer | HTML & JavaScript learner</p>
+    <hr>
+  </header>
+
+  <!-- Navigation (jump links) -->
+  <nav>
+    <strong>Jump to:</strong>
+    <a href="#about">About</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#projects">Projects</a> |
+    <a href="#contact">Contact</a>
+    <hr>
+  </nav>
+
+  <!-- About section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I am a web developer who builds simple, clean websites.
+      I like making user-friendly interfaces and learning new tools.
+    </p>
+    <!-- Replace the src with your image link or remove this img tag -->
+    <p><img src="https://via.placeholder.com/150" alt="Profile photo (replace link)" /></p>
+    <hr>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML (semantic markup)</li>
+      <li>Basic JavaScript (learning)</li>
+      <li>Responsive thinking (using simple layouts)</li>
+      <li>Design tools: Figma (basic)</li>
+    </ul>
+    <hr>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <article>
+      <h3>Project 1 — Personal Landing Page</h3>
+      <p>Simple one-page website showing my work and contact info.</p>
+      <p>Live: <a href="https://example.com" target="_blank" rel="noopener">example.com</a></p>
+    </article>
+
+    <article>
+      <h3>Project 2 — To-do List (JavaScript)</h3>
+      <p>A basic to-do list app to practice DOM and events.</p>
+      <p>Code: <a href="https://github.com/yourusername/todo" target="_blank" rel="noopener">GitHub repo</a></p>
+    </article>
+
+    <p>To add a new project: copy one <code>&lt;article&gt;</code> block and change title & description.</p>
+    <hr>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>Phone: +92-300-1234567</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener">Your LinkedIn</a></p>
+
+    <h3>Send me a message (simple form)</h3>
+    <!-- Note: without server or JS this form won't send; it's only a static example -->
+    <form action="#" method="post">
+      <p>
+        <label for="name">Your name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Your name" />
+      </p>
+      <p>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="40" placeholder="Write a short message"></textarea>
+      </p>
+      <p><input type="submit" value="Send (no server)" /></p>
+    </form>
+    <hr>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year">2025</span> Fida ur Rehman. All rights reserved.</p>
+    <p><small>Last updated: November 3, 2025</small></p>
+  </footer>
+
+</body>
+</html>
